@@ -1,0 +1,88 @@
+
+***** Student data *****
+First name: Andrew
+ Last name: Alice
+Email addr: aalice@uw.edu
+  Enrolled: 1/1/2011 12:00:00 AM
+Freshman
+3.1
+
+***** Student data *****
+First name: Bobby
+ Last name: Bronco
+Email addr: bbrown@uw.edu
+  Enrolled: 2/2/2012 12:00:00 AM
+Sophomore
+3.2
+
+***** Student data *****
+First name: Crank
+ Last name: Cassio
+Email addr: ccass@uw.edu
+  Enrolled: 3/9/2019 4:49:00 PM
+Junior
+3.3
+
+***** Student data *****
+First name: Damion
+ Last name: Dred
+Email addr: ddred@uw.edu
+  Enrolled: 4/4/2014 12:00:00 AM
+Senior
+4
+
+***** Student data *****
+First name: Emit
+ Last name: Edmonds
+Email addr: eedmonds@uw.edu
+  Enrolled: 5/5/2015 12:00:00 AM
+Mr. Enoc
+5550.00
+
+***** Student data *****
+First name: French
+ Last name: Fries
+Email addr: ffrank@uw.edu
+  Enrolled: 6/6/2016 12:00:00 AM
+Mrs. Frances
+3000.00
+
+***** Student data *****
+First name: Giant
+ Last name: Gains
+Email addr: ggains@uw.edu
+  Enrolled: 7/7/2017 12:00:00 AM
+Mr. Gary
+7000.00
+
+***** Student data *****
+First name: Issac
+ Last name: Ivans
+Email addr: iivans@uw.edu
+  Enrolled: 9/9/2019 12:00:00 AM
+Senior
+3.9
+
+***** Student data *****
+First name: Jingle
+ Last name: Jangle
+Email addr: jjangle@uw.edu
+  Enrolled: 10/10/2020 12:00:00 AM
+Dr. Judy Jenkins
+4000.00
+
+***** Student data *****
+First name: Kris
+ Last name: Krangle
+Email addr: kkrangle@yahoo.com
+  Enrolled: 3/9/2019 4:46:40 PM
+Freshman
+3.4
+
+***** Student data *****
+First name: Lee
+ Last name: Lions
+Email addr: llion@uw.edu
+  Enrolled: 3/9/2019 4:48:36 PM
+Dr. Lemons
+3000.00

@@ -1,0 +1,703 @@
+
+------------------------------------------------------------------------------------
+ Welcome to the Student Database Program. In this program you will be given a list
+ of options to choose from below. Please make a selection for the letters listed
+ between [] brackets or when prompted enter another format. It is IMPORTANT that
+ you save after each change is made to the database before exiting.
+
+                    Please make your selection below.
+------------------------------------------------------------------------------------
+
+********************************
+** Student database main menu **
+** [P]rint all records
+** [C]reate a record
+** [F]ind a record
+** [U]pdate a record
+** [D]elete a record
+** [S]ave database w/o exit
+** [Q]uit and Save the database
+**
+** ENTER SELECTION: p
+***** Student data *****
+First name: Ask
+ Last name: Alice
+Email addr: aalice@uw.edu
+  Enrolled: 1/1/2011 12:00:00 AM
+      Year: Freshman
+       GPA: 3.1
+
+***** Student data *****
+First name: Bobby
+ Last name: Brown
+Email addr: bbrown@uw.edu
+  Enrolled: 2/2/2012 12:00:00 AM
+      Year: Sophomore
+       GPA: 3.2
+
+***** Student data *****
+First name: Crank
+ Last name: Cassio
+Email addr: ccass@uw.edu
+  Enrolled: 3/3/2013 12:00:00 AM
+      Year: Junior
+       GPA: 3.3
+
+***** Student data *****
+First name: Damion
+ Last name: Dred
+Email addr: ddred@uw.edu
+  Enrolled: 4/4/2014 12:00:00 AM
+      Year: Senior
+       GPA: 4
+
+***** Student data *****
+First name: Emit
+ Last name: Edmonds
+Email addr: eedmonds@uw.edu
+  Enrolled: 5/5/2015 12:00:00 AM
+   Advisor: Mr. Enrich
+    Credit: 5550.00
+
+***** Student data *****
+First name: French
+ Last name: Fries
+Email addr: ffrank@uw.edu
+  Enrolled: 6/6/2016 12:00:00 AM
+   Advisor: Mrs. Frances
+    Credit: 6000.00
+
+***** Student data *****
+First name: Get
+ Last name: Gains
+Email addr: ggains@uw.edu
+  Enrolled: 7/7/2017 12:00:00 AM
+   Advisor: Mr. Gary
+    Credit: 7000.00
+
+***** Student data *****
+First name: Harry
+ Last name: Hampsters
+Email addr: hhenderson@uw.edu
+  Enrolled: 8/8/2018 12:00:00 AM
+   Advisor: Mrs. Hendrix
+    Credit: 8000.00
+
+***** Student data *****
+First name: Issac
+ Last name: Ivans
+Email addr: iivans@uw.edu
+  Enrolled: 9/9/2019 12:00:00 AM
+      Year: Senior
+       GPA: 3.9
+
+***** Student data *****
+First name: Jingle
+ Last name: Jangle
+Email addr: jjangle@uw.edu
+  Enrolled: 10/10/2020 12:00:00 AM
+   Advisor: Dr. Judy Jenkins
+    Credit: 4000.00
+
+********************************
+** Student database main menu **
+** [P]rint all records
+** [C]reate a record
+** [F]ind a record
+** [U]pdate a record
+** [D]elete a record
+** [S]ave database w/o exit
+** [Q]uit and Save the database
+**
+** ENTER SELECTION: c
+Creating a new Student Record.
+Choose an email address (must be system unique): kkrangle@yahoo.com
+Is the student an Undergrad or Grad Student?
+Enter 'U' for Undergrad or 'G' for Grad: u
+Enter a First Name:
+Kris
+Enter a Last Name:
+Krangle
+Enter a Year Rank(1, 2, 3, or 4):
+1
+
+********************************
+** Student database main menu **
+** [P]rint all records
+** [C]reate a record
+** [F]ind a record
+** [U]pdate a record
+** [D]elete a record
+** [S]ave database w/o exit
+** [Q]uit and Save the database
+**
+** ENTER SELECTION: u
+Attempting to update student record.
+
+
+********************************
+** Student email address list **
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+0 :: aalice@uw.edu
+1 :: bbrown@uw.edu
+2 :: ccass@uw.edu
+3 :: ddred@uw.edu
+4 :: eedmonds@uw.edu
+5 :: ffrank@uw.edu
+6 :: ggains@uw.edu
+7 :: hhenderson@uw.edu
+8 :: iivans@uw.edu
+9 :: jjangle@uw.edu
+10 :: kkrangle@yahoo.com
+
+SELECT email: 10
+     Student ID:    10 (**readonly field)
+   [F]irst name:    Kris
+   [L]ast  name:    Krangle
+  Email address:    kkrangle@yahoo.com (**readonly filed)
+[D]ate enrolled:    3/9/2019 4:46:40 PM
+    [Y]ear Rank:    Freshman
+[G]rade Pt. Avg:    0
+Enter selection:    g
+Enter the new GPA: 3.4
+
+********************************
+** Student database main menu **
+** [P]rint all records
+** [C]reate a record
+** [F]ind a record
+** [U]pdate a record
+** [D]elete a record
+** [S]ave database w/o exit
+** [Q]uit and Save the database
+**
+** ENTER SELECTION: p
+***** Student data *****
+First name: Ask
+ Last name: Alice
+Email addr: aalice@uw.edu
+  Enrolled: 1/1/2011 12:00:00 AM
+      Year: Freshman
+       GPA: 3.1
+
+***** Student data *****
+First name: Bobby
+ Last name: Brown
+Email addr: bbrown@uw.edu
+  Enrolled: 2/2/2012 12:00:00 AM
+      Year: Sophomore
+       GPA: 3.2
+
+***** Student data *****
+First name: Crank
+ Last name: Cassio
+Email addr: ccass@uw.edu
+  Enrolled: 3/3/2013 12:00:00 AM
+      Year: Junior
+       GPA: 3.3
+
+***** Student data *****
+First name: Damion
+ Last name: Dred
+Email addr: ddred@uw.edu
+  Enrolled: 4/4/2014 12:00:00 AM
+      Year: Senior
+       GPA: 4
+
+***** Student data *****
+First name: Emit
+ Last name: Edmonds
+Email addr: eedmonds@uw.edu
+  Enrolled: 5/5/2015 12:00:00 AM
+   Advisor: Mr. Enrich
+    Credit: 5550.00
+
+***** Student data *****
+First name: French
+ Last name: Fries
+Email addr: ffrank@uw.edu
+  Enrolled: 6/6/2016 12:00:00 AM
+   Advisor: Mrs. Frances
+    Credit: 6000.00
+
+***** Student data *****
+First name: Get
+ Last name: Gains
+Email addr: ggains@uw.edu
+  Enrolled: 7/7/2017 12:00:00 AM
+   Advisor: Mr. Gary
+    Credit: 7000.00
+
+***** Student data *****
+First name: Harry
+ Last name: Hampsters
+Email addr: hhenderson@uw.edu
+  Enrolled: 8/8/2018 12:00:00 AM
+   Advisor: Mrs. Hendrix
+    Credit: 8000.00
+
+***** Student data *****
+First name: Issac
+ Last name: Ivans
+Email addr: iivans@uw.edu
+  Enrolled: 9/9/2019 12:00:00 AM
+      Year: Senior
+       GPA: 3.9
+
+***** Student data *****
+First name: Jingle
+ Last name: Jangle
+Email addr: jjangle@uw.edu
+  Enrolled: 10/10/2020 12:00:00 AM
+   Advisor: Dr. Judy Jenkins
+    Credit: 4000.00
+
+***** Student data *****
+First name: Kris
+ Last name: Krangle
+Email addr: kkrangle@yahoo.com
+  Enrolled: 3/9/2019 4:46:40 PM
+      Year: Freshman
+       GPA: 3.4
+
+********************************
+** Student database main menu **
+** [P]rint all records
+** [C]reate a record
+** [F]ind a record
+** [U]pdate a record
+** [D]elete a record
+** [S]ave database w/o exit
+** [Q]uit and Save the database
+**
+** ENTER SELECTION: c
+Creating a new Student Record.
+Choose an email address (must be system unique): llion@uw.edu
+Is the student an Undergrad or Grad Student?
+Enter 'U' for Undergrad or 'G' for Grad: g
+Enter a First Name:
+Lee
+Enter a Last Name:
+Lions
+Enter a Faculty Advisor:
+Dr. Lemons
+Enter the amount of tuition credit:
+3000.00
+
+********************************
+** Student database main menu **
+** [P]rint all records
+** [C]reate a record
+** [F]ind a record
+** [U]pdate a record
+** [D]elete a record
+** [S]ave database w/o exit
+** [Q]uit and Save the database
+**
+** ENTER SELECTION: u
+Attempting to update student record.
+
+
+********************************
+** Student email address list **
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+0 :: aalice@uw.edu
+1 :: bbrown@uw.edu
+2 :: ccass@uw.edu
+3 :: ddred@uw.edu
+4 :: eedmonds@uw.edu
+5 :: ffrank@uw.edu
+6 :: ggains@uw.edu
+7 :: hhenderson@uw.edu
+8 :: iivans@uw.edu
+9 :: jjangle@uw.edu
+10 :: kkrangle@yahoo.com
+11 :: llion@uw.edu
+
+SELECT email: 0
+     Student ID:    1 (**readonly field)
+   [F]irst name:    Ask
+   [L]ast  name:    Alice
+  Email address:    aalice@uw.edu (**readonly filed)
+[D]ate enrolled:    1/1/2011 12:00:00 AM
+    [Y]ear Rank:    Freshman
+[G]rade Pt. Avg:    3.1
+Enter selection:    f
+Enter the new first name: Andrew
+
+********************************
+** Student database main menu **
+** [P]rint all records
+** [C]reate a record
+** [F]ind a record
+** [U]pdate a record
+** [D]elete a record
+** [S]ave database w/o exit
+** [Q]uit and Save the database
+**
+** ENTER SELECTION: u
+Attempting to update student record.
+
+
+********************************
+** Student email address list **
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+0 :: aalice@uw.edu
+1 :: bbrown@uw.edu
+2 :: ccass@uw.edu
+3 :: ddred@uw.edu
+4 :: eedmonds@uw.edu
+5 :: ffrank@uw.edu
+6 :: ggains@uw.edu
+7 :: hhenderson@uw.edu
+8 :: iivans@uw.edu
+9 :: jjangle@uw.edu
+10 :: kkrangle@yahoo.com
+11 :: llion@uw.edu
+
+SELECT email: 1
+     Student ID:    2 (**readonly field)
+   [F]irst name:    Bobby
+   [L]ast  name:    Brown
+  Email address:    bbrown@uw.edu (**readonly filed)
+[D]ate enrolled:    2/2/2012 12:00:00 AM
+    [Y]ear Rank:    Sophomore
+[G]rade Pt. Avg:    3.2
+Enter selection:    l
+Enter a new Last Name: Bronco
+
+********************************
+** Student database main menu **
+** [P]rint all records
+** [C]reate a record
+** [F]ind a record
+** [U]pdate a record
+** [D]elete a record
+** [S]ave database w/o exit
+** [Q]uit and Save the database
+**
+** ENTER SELECTION: u
+Attempting to update student record.
+
+
+********************************
+** Student email address list **
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+0 :: aalice@uw.edu
+1 :: bbrown@uw.edu
+2 :: ccass@uw.edu
+3 :: ddred@uw.edu
+4 :: eedmonds@uw.edu
+5 :: ffrank@uw.edu
+6 :: ggains@uw.edu
+7 :: hhenderson@uw.edu
+8 :: iivans@uw.edu
+9 :: jjangle@uw.edu
+10 :: kkrangle@yahoo.com
+11 :: llion@uw.edu
+
+SELECT email: 2
+     Student ID:    3 (**readonly field)
+   [F]irst name:    Crank
+   [L]ast  name:    Cassio
+  Email address:    ccass@uw.edu (**readonly filed)
+[D]ate enrolled:    3/3/2013 12:00:00 AM
+    [Y]ear Rank:    Junior
+[G]rade Pt. Avg:    3.3
+Enter selection:    d
+Enter a new Enrollment Date: 3/9/2019 4:49:00 PM
+
+********************************
+** Student database main menu **
+** [P]rint all records
+** [C]reate a record
+** [F]ind a record
+** [U]pdate a record
+** [D]elete a record
+** [S]ave database w/o exit
+** [Q]uit and Save the database
+**
+** ENTER SELECTION: u
+Attempting to update student record.
+
+
+********************************
+** Student email address list **
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+0 :: aalice@uw.edu
+1 :: bbrown@uw.edu
+2 :: ccass@uw.edu
+3 :: ddred@uw.edu
+4 :: eedmonds@uw.edu
+5 :: ffrank@uw.edu
+6 :: ggains@uw.edu
+7 :: hhenderson@uw.edu
+8 :: iivans@uw.edu
+9 :: jjangle@uw.edu
+10 :: kkrangle@yahoo.com
+11 :: llion@uw.edu
+
+SELECT email: 3
+     Student ID:    4 (**readonly field)
+   [F]irst name:    Damion
+   [L]ast  name:    Dred
+  Email address:    ddred@uw.edu (**readonly filed)
+[D]ate enrolled:    4/4/2014 12:00:00 AM
+    [Y]ear Rank:    Senior
+[G]rade Pt. Avg:    4
+Enter selection:    y
+Enter the new year rank in school [1, 2, 3, 4] only: 1
+
+********************************
+** Student database main menu **
+** [P]rint all records
+** [C]reate a record
+** [F]ind a record
+** [U]pdate a record
+** [D]elete a record
+** [S]ave database w/o exit
+** [Q]uit and Save the database
+**
+** ENTER SELECTION: u
+Attempting to update student record.
+
+
+********************************
+** Student email address list **
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+0 :: aalice@uw.edu
+1 :: bbrown@uw.edu
+2 :: ccass@uw.edu
+3 :: ddred@uw.edu
+4 :: eedmonds@uw.edu
+5 :: ffrank@uw.edu
+6 :: ggains@uw.edu
+7 :: hhenderson@uw.edu
+8 :: iivans@uw.edu
+9 :: jjangle@uw.edu
+10 :: kkrangle@yahoo.com
+11 :: llion@uw.edu
+
+SELECT email: 4
+       Student ID: 5 (**readonly field)
+     [F]irst Name: Emit
+      [L]ast Name: Edmonds
+    Email Address: eedmonds@uw.edu (**readonly field)
+  [D]ate Enrolled: 5/5/2015 12:00:00 AM
+        [A]dvisor: Mr. Enrich
+ [T]uition Credit: 5550.00
+   Enter Selection:
+a
+Enter a new Faculty Advisor: Mr. Enoc
+
+********************************
+** Student database main menu **
+** [P]rint all records
+** [C]reate a record
+** [F]ind a record
+** [U]pdate a record
+** [D]elete a record
+** [S]ave database w/o exit
+** [Q]uit and Save the database
+**
+** ENTER SELECTION: u
+Attempting to update student record.
+
+
+********************************
+** Student email address list **
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+0 :: aalice@uw.edu
+1 :: bbrown@uw.edu
+2 :: ccass@uw.edu
+3 :: ddred@uw.edu
+4 :: eedmonds@uw.edu
+5 :: ffrank@uw.edu
+6 :: ggains@uw.edu
+7 :: hhenderson@uw.edu
+8 :: iivans@uw.edu
+9 :: jjangle@uw.edu
+10 :: kkrangle@yahoo.com
+11 :: llion@uw.edu
+
+SELECT email: 5
+       Student ID: 6 (**readonly field)
+     [F]irst Name: French
+      [L]ast Name: Fries
+    Email Address: ffrank@uw.edu (**readonly field)
+  [D]ate Enrolled: 6/6/2016 12:00:00 AM
+        [A]dvisor: Mrs. Frances
+ [T]uition Credit: 6000.00
+   Enter Selection:
+t
+Enter a new Tuition Credit 3000.00
+
+********************************
+** Student database main menu **
+** [P]rint all records
+** [C]reate a record
+** [F]ind a record
+** [U]pdate a record
+** [D]elete a record
+** [S]ave database w/o exit
+** [Q]uit and Save the database
+**
+** ENTER SELECTION: u
+Attempting to update student record.
+
+
+********************************
+** Student email address list **
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+0 :: aalice@uw.edu
+1 :: bbrown@uw.edu
+2 :: ccass@uw.edu
+3 :: ddred@uw.edu
+4 :: eedmonds@uw.edu
+5 :: ffrank@uw.edu
+6 :: ggains@uw.edu
+7 :: hhenderson@uw.edu
+8 :: iivans@uw.edu
+9 :: jjangle@uw.edu
+10 :: kkrangle@yahoo.com
+11 :: llion@uw.edu
+
+SELECT email: 6
+       Student ID: 7 (**readonly field)
+     [F]irst Name: Get
+      [L]ast Name: Gains
+    Email Address: ggains@uw.edu (**readonly field)
+  [D]ate Enrolled: 7/7/2017 12:00:00 AM
+        [A]dvisor: Mr. Gary
+ [T]uition Credit: 7000.00
+   Enter Selection:
+f
+Enter a new First Name: Giant
+
+********************************
+** Student database main menu **
+** [P]rint all records
+** [C]reate a record
+** [F]ind a record
+** [U]pdate a record
+** [D]elete a record
+** [S]ave database w/o exit
+** [Q]uit and Save the database
+**
+** ENTER SELECTION: f
+********************************
+** Student email address list **
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+0 :: aalice@uw.edu
+1 :: bbrown@uw.edu
+2 :: ccass@uw.edu
+3 :: ddred@uw.edu
+4 :: eedmonds@uw.edu
+5 :: ffrank@uw.edu
+6 :: ggains@uw.edu
+7 :: hhenderson@uw.edu
+8 :: iivans@uw.edu
+9 :: jjangle@uw.edu
+10 :: kkrangle@yahoo.com
+11 :: llion@uw.edu
+
+SELECT email: 8
+
+***** Student data *****
+First name: Issac
+ Last name: Ivans
+Email addr: iivans@uw.edu
+  Enrolled: 9/9/2019 12:00:00 AM
+      Year: Senior
+       GPA: 3.9
+
+********************************
+** Student database main menu **
+** [P]rint all records
+** [C]reate a record
+** [F]ind a record
+** [U]pdate a record
+** [D]elete a record
+** [S]ave database w/o exit
+** [Q]uit and Save the database
+**
+** ENTER SELECTION: d
+********************************
+** Student email address list **
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+0 :: aalice@uw.edu
+1 :: bbrown@uw.edu
+2 :: ccass@uw.edu
+3 :: ddred@uw.edu
+4 :: eedmonds@uw.edu
+5 :: ffrank@uw.edu
+6 :: ggains@uw.edu
+7 :: hhenderson@uw.edu
+8 :: iivans@uw.edu
+9 :: jjangle@uw.edu
+10 :: kkrangle@yahoo.com
+11 :: llion@uw.edu
+
+SELECT email: 7
+Removing: Harry Hampsters
+ ... Record Deleted.
+
+********************************
+** Student database main menu **
+** [P]rint all records
+** [C]reate a record
+** [F]ind a record
+** [U]pdate a record
+** [D]elete a record
+** [S]ave database w/o exit
+** [Q]uit and Save the database
+**
+** ENTER SELECTION: f
+********************************
+** Student email address list **
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+0 :: aalice@uw.edu
+1 :: bbrown@uw.edu
+2 :: ccass@uw.edu
+3 :: ddred@uw.edu
+4 :: eedmonds@uw.edu
+5 :: ffrank@uw.edu
+6 :: ggains@uw.edu
+7 :: iivans@uw.edu
+8 :: jjangle@uw.edu
+9 :: kkrangle@yahoo.com
+10 :: llion@uw.edu
+
+SELECT email: 7
+
+***** Student data *****
+First name: Issac
+ Last name: Ivans
+Email addr: iivans@uw.edu
+  Enrolled: 9/9/2019 12:00:00 AM
+      Year: Senior
+       GPA: 3.9
+
+********************************
+** Student database main menu **
+** [P]rint all records
+** [C]reate a record
+** [F]ind a record
+** [U]pdate a record
+** [D]elete a record
+** [S]ave database w/o exit
+** [Q]uit and Save the database
+**
+** ENTER SELECTION: s  ...File Saved.
+
+********************************
+** Student database main menu **
+** [P]rint all records
+** [C]reate a record
+** [F]ind a record
+** [U]pdate a record
+** [D]elete a record
+** [S]ave database w/o exit
+** [Q]uit and Save the database
+**
+** ENTER SELECTION: qPress any key to continue . . .
